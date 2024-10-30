@@ -5,6 +5,7 @@
 The Block Chain Based Voting system is a project brought by Coinlocator, In this we used solidty to form a smart contract
 and hosted it using BSC testnet.Then we used React along with Java Script to connect the contract to frontend.
 The working is as follows:
+
 <img width="1000" alt="image" src="https://github.com/SamarthGhante/Blockchain-Voting-System/assets/144468120/c7f191e1-5103-4afc-8425-3b4a6d7d1508">
 
 ## Usage Requirements🤖
@@ -40,8 +41,8 @@ The working is as follows:
 Clone Repo:
 
 ```sh
-git clone https://github.com/incredible1105/Token-voting-dapp
-cd Token-voting-dapp
+git https://github.com/Bluehat-Games/coin-promoting.git
+cd coin-promoting
 ```
 
 Install Dependencies:

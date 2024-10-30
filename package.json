@@ -6,17 +6,32 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/coin-promoting/coin-promoting.git"
+    "url": "https://github.com/Bluehat-Games/coin-promoting.git"
   },
   "keywords": [
     "coin",
     "promoting",
-    "dapp"
+    "dapp",
+    "voting",
+    "blockchain",
+    "smart",
+    "contract",
+    "react",
+    "javascript",
+    "node",
+    "express",
+    "mongodb",
+    "sequelize",
+    "truffle",
+    "metamask",
+    "polygon",
+    "bsc",
+    "web3",
   ],
   "bugs": {
-    "url": "https://github.com/coin-promoting/coin-promoting/issues"
+    "url": "https://github.com/Bluehat-Games/coin-promoting/issues"
   },
-  "author": "Lamoerey",
+  "author": "drop5",
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "4.3.1",
@@ -86,12 +101,12 @@
     "sequelize-cli": "^5.5.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"react-scripts --openssl-legacy-provider start\" --kill-others --kill-others-on-fail",
-    "server": "node server/app.js",
-    "test": "react-scripts test",
-    "start-server": "nodemon server/app.js --watch server/*",
-    "build": "node server/app.js | react-scripts --openssl-legacy-provider build",
-    "eject": "react-scripts eject"
+    "start": "concurrently  \"npm run  server\" \"react-scripts --openssl-legacy-provider start\"  --kill-others --kill-others-on-fail",
+    "start-server": "nodemon server/app.js  --watch server/*",
+    "test": "react-scripts  test",
+    "build": "node server/app.js  |  react-scripts --openssl-legacy-provider build",
+    "server": "node  server/app.js",
+    "eject": "react-scripts  eject"
   },
   "eslintConfig": {
     "extends": [
